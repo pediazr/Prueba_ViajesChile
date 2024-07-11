@@ -10,8 +10,8 @@
     font-style: normal;
   }
 
-  .carousel-inner img {
-    
-    object-fit: contain;   
-   
-  }
+body {
+    background-color: #010101;
+    padding: 0;
+    margin: 0;
+}
