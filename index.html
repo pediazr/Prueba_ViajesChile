@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Pedro Díaz Rivera">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Viajes Chile</title>
     <!--bootstrap-->
@@ -81,7 +82,7 @@
     </header>
 
     <!--Carousel-->
-    <section >
+    <section>
       <div
         id="carouselExampleIndicators"
         class="carousel slide"
@@ -109,7 +110,7 @@
             aria-label="Slide 3"
           ></button>
         </div>
-        <div class="carousel-inner  carousel-img">
+        <div class="carousel-inner carousel-img">
           <div class="carousel-item active">
             <img
               class="img-fluid d-block w-100"
@@ -318,23 +319,40 @@
         </div>
         <hr class="border border-1 my-4 mx-auto" />
       </div>
-      <form class="text-white roboto-regular pb-5 ">
+      <form class="text-white roboto-regular pb-5">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Nombre</label>
-          <input type="email" class="form-control" id="exampleInputNombre" >
+          <input type="email" class="form-control" id="exampleInputNombre" />
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Asunto</label>
-          <input type="email" class="form-control" id="exampleInputAsunto" >
+          <input type="email" class="form-control" id="exampleInputAsunto" />
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Mensaje</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="6"
+          ></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button
+          type="button"
+          data-bs-toggle="tooltip"
+          class="btn btn-primary segundo ml-3 text-nowrap text-left"
+          data-toggle="tooltip"
+          data-bs-placement="right"
+          data-bs-custom-class="custom-tooltip"
+          title="Presiona para enviar tu Mensaje."
+          id="enviar"
+        >
+          Enviar
+        </button>
       </form>
     </section>
-    
+
     <!--Footer-->
     <footer class="text-white py-4 bg-primary pe-5">
       <div class="container">
@@ -359,19 +377,12 @@
             </div>
           </div>
         </div>
-
       </div>
-      
     </footer>
+
     <!--script-->
-    
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
-  </html>
-  
+</html>
