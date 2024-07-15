@@ -35,22 +35,22 @@ El sitio web consta de varias secciones:
 
 ## Estructura del Proyecto
 
-Prueba_ViajesChile/
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── img/
-│ │ ├── carousel1.jpg
-│ │ ├── carousel2.jpg
-│ │ ├── carousel3.jpg
-│ │ ├── card1.jpg
-│ │ ├── card2.jpg
-│ │ ├── card3.jpg
-│ │ └── card4.jpg
-│ └── js/
-│ └── script.js
-├── index.html
-└── README.md
+- **Prueba_ViajesChile/**
+  - **assets/**
+    - **css/**
+      - style.css
+    - **img/**
+      - carousel1.jpg
+      - carousel2.jpg
+      - carousel3.jpg
+      - card1.jpg
+      - card2.jpg
+      - card3.jpg
+      - card4.jpg
+    - **js/**
+      - script.js
+  - index.html
+  - README.md
 
 ## Características
 
