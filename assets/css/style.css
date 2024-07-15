@@ -36,9 +36,9 @@ body {
 }
 
 footer a {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 footer a:hover {
-  color: #fff;
+  color: #ffffff !important;
 }
