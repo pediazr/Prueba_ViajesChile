@@ -34,3 +34,11 @@ body {
 .bs-tooltip-auto[x-placement^="right"] .arrow::before {
   border-right-color: #666464 !important;
 }
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #fff;
+}
